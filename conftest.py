@@ -8,7 +8,7 @@ from faker import Faker
 from config import *
 from models.contact_dto import Contact
 from models.user_dto import User
-
+from dataclasses import asdict
 fake = Faker()
 
 
@@ -82,3 +82,12 @@ def random_contact():
         address=fake.address()[:50],
         description=fake.text(max_nb_chars=200),
     )
+
+@pytest.fixture(scope="function")
+def create_contact(session, random_contact,add_contact_url,auth_header):
+    response= session.post(add_contact_url,
+                           json=asdict(random_contact),
+                           headers=auth_header)
+    contact_id = response.json()["message"][23:]
+    #print(contact_id)
+    return contact_id
