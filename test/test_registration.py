@@ -1,7 +1,9 @@
-import pytest
-from models.user_dto import User
 from conftest import *
 from faker import Faker
+from faker import Faker
+
+from conftest import *
+
 fake = Faker()
 
 class TestRegistration:

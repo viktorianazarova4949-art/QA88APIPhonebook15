@@ -2,6 +2,7 @@ import pytest
 
 from config import *
 
+
 class TestLogin:
 
     def test_login_positive(self, session, login_url, registered_user):

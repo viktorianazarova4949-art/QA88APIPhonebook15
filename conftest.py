@@ -1,10 +1,11 @@
-import pytest
-import requests
 import random
 import time
-from config import *
+
+import pytest
+import requests
 from faker import Faker
 
+from config import *
 from models.contact_dto import Contact
 from models.user_dto import User
 
