@@ -9,3 +9,4 @@ pytest -s -v
 pytest test_pytest.py
 
 pytest --version
+pytest -m smoke

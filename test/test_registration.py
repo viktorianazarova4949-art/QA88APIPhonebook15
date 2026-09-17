@@ -7,7 +7,7 @@ from conftest import *
 fake = Faker()
 
 class TestRegistration:
-
+    @pytest.mark.smoke # merki market
     def test_registration_positive(self, session, registration_url, random_user):
         print(random_user)
         body = {
