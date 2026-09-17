@@ -4,6 +4,7 @@ import time
 import pytest
 import requests
 from faker import Faker
+import re
 
 from config import *
 from models.contact_dto import Contact
@@ -88,6 +89,19 @@ def create_contact(session, random_contact,add_contact_url,auth_header):
     response= session.post(add_contact_url,
                            json=asdict(random_contact),
                            headers=auth_header)
-    contact_id = response.json()["message"][23:]
-    #print(contact_id)
+    message =response.json()["message"]
+    math =re.search(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", message)
+    assert math, f"Id not foud -->{message}"
+    contact_id=math.group()
     return contact_id
+
+@pytest.fixture(scope="function")
+def create_contact_return_contact(session, random_contact,add_contact_url,auth_header):
+    response= session.post(add_contact_url,
+                           json=asdict(random_contact),
+                           headers=auth_header)
+    contact_id = response.json()["message"][23:]
+    contact=asdict(random_contact)
+    contact["id"] = contact_id
+    return contact
+
