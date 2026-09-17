@@ -76,3 +76,11 @@ class TestContacts:
         response = session.put(add_contact_url, headers=auth_header, json=contact)
         assert response.status_code == 200
         assert "Contact was updated" in response.json()["message"]
+
+    def test_delete_contact_positive(self, session, add_contact_url, auth_header, create_contact):
+        contact_id = create_contact
+        response = session.delete(f"{add_contact_url}/{contact_id}", headers=auth_header)
+        print(response.json())
+        assert response.status_code == 200
+        assert "Contact was deleted" in response.json()["message"]
+

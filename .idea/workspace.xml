@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="638cedc1-5e84-47e2-838c-c3befda27ecd" name="Changes" comment="Login Tests Negative 16">
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+    <list default="true" id="638cedc1-5e84-47e2-838c-c3befda27ecd" name="Changes" comment="Login Tests Negative 17">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_contacts.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_contacts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +53,12 @@
     "Python tests.Python tests for test.test_contacts.TestContacts.executor": "Run",
     "Python tests.Python tests for test.test_contacts.TestContacts.test_add_contact.executor": "Run",
     "Python tests.Python tests for test.test_contacts.TestContacts.test_add_contact_positive.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_delete_contact_positive.executor": "Run",
     "Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts.executor": "Run",
     "Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts_negative_wrong_token.executor": "Run",
     "Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts_positive.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_positive.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_second_positive.executor": "Run",
     "Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_positive.executor": "Run",
     "Python tests.Python tests for test.test_contacts.test_update_contact_positive.executor": "Run",
     "Python tests.Python tests for test.test_login.TestLogin.test_login_negative.executor": "Run",
@@ -92,7 +96,7 @@
       <recent name="C:\MyPythonProjects\QA88APIPhonebook" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_positive">
+  <component name="RunManager" selected="Python tests.Python tests for test.test_contacts.TestContacts.test_delete_contact_positive">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="QA88APIPhonebook15" />
       <option name="ENV_FILES" value="" />
@@ -240,7 +244,7 @@
       <option name="docutils_open_in_browser" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_contacts.TestContacts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.test_contacts.TestContacts.test_delete_contact_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA88APIPhonebook15" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,11 +258,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_contacts.TestContacts&quot;" />
+      <option name="_new_target" value="&quot;test.test_contacts.TestContacts.test_delete_contact_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_contacts.TestContacts.test_get_all_contacts_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA88APIPhonebook15" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,7 +276,25 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_contacts.TestContacts.test_get_all_contacts_positive&quot;" />
+      <option name="_new_target" value="&quot;test.test_contacts.TestContacts.test_update_contact_one_field_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_second_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QA88APIPhonebook15" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_contacts.TestContacts.test_update_contact_one_field_second_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -291,24 +313,6 @@
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.test_contacts.TestContacts.test_update_contact_positive&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.test_contacts.test_update_contact_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="QA88APIPhonebook15" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_contacts.test_update_contact_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -372,10 +376,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test.test_contacts.TestContacts.test_delete_contact_positive" />
+        <item itemvalue="Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_second_positive" />
         <item itemvalue="Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_positive" />
-        <item itemvalue="Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts_positive" />
-        <item itemvalue="Python tests.Python tests for test.test_contacts.test_update_contact_positive" />
-        <item itemvalue="Python tests.Python tests for test.test_contacts.TestContacts" />
+        <item itemvalue="Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_positive" />
         <item itemvalue="Python tests.Python tests in test_contacts.py" />
       </list>
     </recent_temporary>
@@ -395,7 +399,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788951204070</updated>
       <workItem from="1789493835352" duration="380000" />
-      <workItem from="1789494262040" duration="10152000" />
+      <workItem from="1789494262040" duration="17233000" />
     </task>
     <task id="LOCAL-00001" summary="Start project">
       <option name="closed" value="true" />
@@ -474,7 +478,21 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1789555049917</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Login Tests Negative 17">
+      <option name="closed" value="true" />
+      <created>1789582314366</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1789582314366</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Login Tests Negative 17">
+      <option name="closed" value="true" />
+      <created>1789644970130</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1789644970130</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,10 +505,11 @@
     <MESSAGE value="Login Tests Negative" />
     <MESSAGE value="Login Tests Negative 15" />
     <MESSAGE value="Login Tests Negative 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Tests Negative 16" />
+    <MESSAGE value="Login Tests Negative 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Tests Negative 17" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCharm$.coverage" NAME=" Coverage Results" MODIFIED="1789495491256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/QA88APIPhonebook15$.coverage" NAME=" Coverage Results" MODIFIED="1789582284438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QA88APIPhonebook15$.coverage" NAME=" Coverage Results" MODIFIED="1789645711261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
