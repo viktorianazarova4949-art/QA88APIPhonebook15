@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="638cedc1-5e84-47e2-838c-c3befda27ecd" name="Changes" comment="Login Tests Negative 18">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="638cedc1-5e84-47e2-838c-c3befda27ecd" name="Changes" comment="Login Tests Negative 19">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,49 +45,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.test_add_contact.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.test_add_contact_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.test_delete_contact_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts_negative_wrong_token.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_second_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_contacts.test_update_contact_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_login.TestLogin.test_login_negative.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_login.TestLogin.test_login_negative_wrong_password.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_login.TestLogin.test_login_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_registration.TestRegistration.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_duplicate_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_contacts.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_login.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/MyPythonProjects/QA88APIPhonebook&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test.test_contacts.TestContacts.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_add_contact.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_add_contact_positive.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_delete_contact_positive.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts_negative_wrong_token.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_get_all_contacts_positive.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_positive.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_one_field_second_positive.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.TestContacts.test_update_contact_positive.executor": "Run",
+    "Python tests.Python tests for test.test_contacts.test_update_contact_positive.executor": "Run",
+    "Python tests.Python tests for test.test_login.TestLogin.test_login_negative.executor": "Run",
+    "Python tests.Python tests for test.test_login.TestLogin.test_login_negative_wrong_password.executor": "Run",
+    "Python tests.Python tests for test.test_login.TestLogin.test_login_positive.executor": "Run",
+    "Python tests.Python tests for test.test_registration.TestRegistration.executor": "Run",
+    "Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_duplicate_user.executor": "Run",
+    "Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email.executor": "Run",
+    "Python tests.Python tests for test.test_registration.TestRegistration.test_registration_positive.executor": "Run",
+    "Python tests.Python tests in test_contacts.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/vikto/Desktop/QA88APIPhonebook15",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vikto\Desktop\QA88APIPhonebook15" />
+      <recent name="C:\Users\vikto\Desktop\QA88APIPhonebook15\.github" />
       <recent name="C:\MyPythonProjects\QA88APIPhonebook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -213,6 +215,7 @@
       <workItem from="1789494262040" duration="17587000" />
       <workItem from="1789648294485" duration="47000" />
       <workItem from="1789648417828" duration="192000" />
+      <workItem from="1789990887885" duration="484000" />
     </task>
     <task id="LOCAL-00001" summary="Start project">
       <option name="closed" value="true" />
@@ -312,7 +315,14 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1789646441666</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="Login Tests Negative 19">
+      <option name="closed" value="true" />
+      <created>1789991108948</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1789991108948</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +337,8 @@
     <MESSAGE value="Login Tests Negative 16" />
     <MESSAGE value="Login Tests Negative 17" />
     <MESSAGE value="Login Tests Negative 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Tests Negative 18" />
+    <MESSAGE value="Login Tests Negative 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Tests Negative 19" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCharm$.coverage" NAME=" Coverage Results" MODIFIED="1789495491256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
